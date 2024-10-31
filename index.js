@@ -47,9 +47,6 @@ app.get("/usuarios/:id", (req, res)=>{
     }
 });
 
-
-
-
 app.post("/usuaruis", (req,res) => {
     const {nome, email, idade } = req.body;
 
